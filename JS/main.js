@@ -79,7 +79,7 @@
 		$('.carousel').each(function() {
 
 			var	$t = $(this),
-				$forward = $('<span class="forward"></span>'),
+				$forward = $('<span class="forward"</span>'),
 				$backward = $('<span class="backward"></span>'),
 				$reel = $t.children('.reel'),
 				$items = $reel.children('article');
@@ -98,7 +98,7 @@
 
 					$t.scrollex({
 						mode: 'middle',
-						top: '-20vh',
+						top: '-15vh',
 						bottom: '-20vh',
 						enter: function() {
 

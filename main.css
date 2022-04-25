@@ -91,7 +91,10 @@ input, select, textarea {
 	
 }
 span{
-	color: #a551c7;
+	color: #bc52e6;
+}
+a{
+	color: black;
 }
 
 #nav-list ul li a{
@@ -2555,7 +2558,7 @@ span{
 		.carousel .forward, .carousel .backward {
 			position: absolute;
 			top: 50%;
-			width: 6em;
+			width: 3em;
 			height: 12em;
 			margin-top: -6em;
 			cursor: pointer;
@@ -2564,10 +2567,10 @@ span{
 			.carousel .forward:before, .carousel .backward:before {
 				content: '';
 				display: block;
-				width: 6em;
-				height: 6em;
-				border-radius: 100%;
-				background-color: rgba(72, 57, 73, 0.5);
+				width: 5em;
+				height: 5em;
+				border-radius: 50%;
+				background-color: rgba(229, 171, 233, 0.5);
 				position: absolute;
 				top: 50%;
 				margin-top: -3em;
@@ -2590,7 +2593,7 @@ span{
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(239, 131, 118, 0.75);
+				background-color: rgba(151, 147, 146, 0.75);
 			}
 
 		.carousel .forward {
